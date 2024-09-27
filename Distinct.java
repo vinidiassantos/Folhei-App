@@ -33,7 +33,6 @@ public class Distinct {
         ps.close();
 
         // App folhei test
-        // JDBC 2.0
         DatabaseMetaData dmd = c.getMetaData();
 
         int types[] = new int[1];
